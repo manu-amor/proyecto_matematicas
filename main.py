@@ -1,6 +1,12 @@
 import sys
 import math
 
+def sumar(a, b):
+    resultado = a + b
+    print("Resultado:", resultado)
+    return resultado
+
+
 def main():
     print("--- MENU MATEMATICO ---")
     print("1. Sumar")
