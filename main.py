@@ -6,6 +6,10 @@ def sumar(a, b):
     print("Resultado:", resultado)
     return resultado
 
+def restar(a, b):
+    resultado = a - b
+    print("Resultado:", resultado)
+    return resultado
 
 def main():
     print("--- MENU MATEMATICO ---")
